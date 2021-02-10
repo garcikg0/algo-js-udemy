@@ -13,7 +13,7 @@ function merge(arr1, arr2){
         }
     }
 
-    while (i < arr.length){
+    while (i < arr1.length){
         results.push(arr1[i])
         i++
     }
@@ -31,3 +31,6 @@ function mergeSort(arr){
     let right = mergeSort(arr.slice(mid));
     return merge(left, right)
 }
+
+let run = mergeSort([10,24,76,73]);
+console.log(run);
