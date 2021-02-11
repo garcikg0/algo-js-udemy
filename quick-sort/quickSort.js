@@ -32,5 +32,5 @@ function quickSort(arr, left = 0, right = arr.length -1) {
 // let result = pivot([4,8,2,1,5,7,6,3])  // 3
 // console.log(result)
 
-let result = quickSort([4,6,9,1,2,5])
+let result = quickSort([4,6,9,1,2,5]) // [ 1, 2, 4, 5, 6, 9 ]
 console.log(result)
